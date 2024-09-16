@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="APITests">
+    <test name="GoRestAPISCreate">
+        <classes>
+            <class name="gorestapis.CreateUser"/>
+        </classes>
+    </test>
+    <test name="GoRestAPISGet">
+        <classes>
+            <class name="gorestapis.GetUserId"/>
+        </classes>
+    </test>
+    <test name="GoRestAPISUpdate">
+        <classes>
+            <class name="gorestapis.UpdateUser"/>
+        </classes>
+    </test>
+    <test name="GoRestAPISDelete">
+        <classes>
+            <class name="gorestapis.DeleteUser"/>
+        </classes>
+    </test><!-- Test -->
+</suite> <!-- Suite -->

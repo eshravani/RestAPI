@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="APITests">
+    <test name="GoRestAPIS">
+        <classes>
+            <class name="gorestapis.CreateUser"/>
+            <class name="gorestapis.GetUserId"/>
+            <class name="gorestapis.UpdateUser"/>
+            <class name="gorestapis.DeleteUser"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
